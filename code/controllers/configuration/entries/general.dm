@@ -46,6 +46,12 @@ Basics, the most important.
 
 /datum/config_entry/string/restart_message
 
+/datum/config_entry/string/servertagline
+	config_entry_value = "We forgot to set the server's tagline in config.txt"
+
+/datum/config_entry/string/discordlink
+	config_entry_value = "We forgot to set the server's discord link in config.txt"
+
 /datum/config_entry/flag/guest_ban
 
 /*
