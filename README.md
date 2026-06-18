@@ -1,9 +1,7 @@
 
 <h1>
 
-TerraGov Marine Corps 
-[![Badge Issues]][Issues]
-[![Badge Time]][Time]
+TerraGov Meta Corps 
 
 </h1>
 
@@ -14,6 +12,12 @@ TerraGov Marine Corps 
 </div>
 
 <br>
+
+## Join Our Discord
+
+Discord server           | Link
+:-----------------------:|:--------------------------------:
+`«POSTMETA» – RU/TG/SS13`| **https://discord.gg/2VwaWtZcRh**
 
 ## Licensing
 
