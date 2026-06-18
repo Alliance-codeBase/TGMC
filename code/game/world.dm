@@ -364,11 +364,13 @@ GLOBAL_VAR(restart_counter)
 	new_status += "<br>Mode: <b>[SSticker.mode ? SSticker.mode.name : "Lobby"]</b>"
 	new_status += "<br>Round time: <b>[gameTimestamp("hh:mm")]</b>"
 
+	//MetaCorps addition (tagline)
 	new_status += " ("
 	new_status += "<a href=\"[CONFIG_GET(string/discordlink)]\">"
 	new_status += "Discord"
 	new_status += ")\]"
 	new_status += "<br>[CONFIG_GET(string/servertagline)]<br>"
+	//MetaCorps addition end
 
 	// Finally set the new status
 	status = new_status

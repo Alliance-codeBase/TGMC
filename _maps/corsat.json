@@ -7,6 +7,6 @@
 	},
     "armor": "prison",
     "quickbuilds": 2300,
-	"announce_text": "A classified distress signal has been picked up by our scanners, which have tracked the source to Nanotrasen's Corporate Orbital Research Station for Advanced Technology research station, known as CORSAT. Through use of bluespace drive tech, the ship has jumped within range of the colony. TGMC, gear up and get ready to respond!",
+	"announce_text": "Наши сканеры зафиксировали секретный сигнал бедствия, источник которого отследили до исследовательской станции CORSAT (Corporate Orbital Research Station for Advanced Technology) компании Nanotrasen. Благодаря использованию технологии космического двигателя, корабль приблизился к колонии на расстояние, близкое к ней. TGMC, готовьтесь к ответу!",
 	"traits":[{"Baseturf": "/turf/open/floor/plating"}]
 }

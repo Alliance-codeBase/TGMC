@@ -7,7 +7,7 @@
 	},
 	"quickbuilds": 2700,
 	"armor": "urban",
-	"announce_text": "A routine check of nearby second-generation colonies has identified an anomaly on designation Zeta-Echo-7b, otherwise known as LV759.  The colony beacon has been transmitting a constant, unchanging signal for 7 weeks. Attempts to establish communication via standard protocols have been unsuccessful. TGMC, gear up and get ready to respond!",
+	"announce_text": "В ходе плановой проверки расположенных поблизости колоний второго поколения была обнаружена аномалия на точке Zeta-Echo-7b, также известной как LV759. Маяк колонии передает постоянный, неизменный сигнал уже 7 недель. Попытки установить связь по стандартным протоколам оказались безуспешными. TGMC, вооружайтесь и готовьтесь к поддержке огнём!",
 	"traits":[{
 		"weather_rain": true,
 		"No Parallax": true,

@@ -8,7 +8,7 @@
 	},
 	"armor": "jungle",
 	"quickbuilds": 1800,
-	"announce_text": "An AI from a Nanotrasen sponsored Research Colony has been sending a distress signal, nonstop. Nanotrasen has hired us to reclaim the Colony in any form. TGMC, prepare to deploy!",
+	"announce_text": "Искусственный Интеллект из исследовательской колонии, спонсируемой компанией Nanotrasen, непрерывно посылает сигнал бедствия. Nanotrasen наняла нас для возвращения колонии в любом виде. TGMC, готовьтесь к развертыванию!",
 	"traits":[{
 		"weather_rain": true,
 		"No Parallax": true,

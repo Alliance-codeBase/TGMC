@@ -3,7 +3,7 @@
     "map_path": "map_files/oscar_outpost",
     "map_file": "oscar_outpost.dmm",
 	"parallax_icon": "jungle",
-    "announce_text": "A faint distress signal has been picked up by our scanners, which have tracked the source to Batallion 167's Supreme Command Center. Through use of emergency bluespace drive tech, the ship has jumped within range of the outpost. Senior officers are present and will need to be evacuated in order to completely finish your mission. TGMC, gear up and get ready to respond!",
+    "announce_text": "Наши сканеры зафиксировали слабый сигнал бедствия, источник которого отследили до Верховного командного центра 167-го батальона. Благодаря использованию аварийной технологии движения в синем пространстве, корабль приблизился на расстояние, позволяющее его обнаружить. Старшие офицеры находятся на месте и нуждаются в эвакуации для полного завершения вашей миссии. TGMC, вооружайтесь и готовьтесь к поддержке огнём!",
 	"traits":[{
 		"No Parallax": true,
 		"Baseturf": "/turf/open/floor/plating"

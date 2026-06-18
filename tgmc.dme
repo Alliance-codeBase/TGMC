@@ -2559,6 +2559,12 @@
 #include "code\modules\xenomorph\xeno_turret.dm"
 #include "code\modules\xenomorph\xenoplant.dm"
 #include "code\modules\xenomorph\xenotowers.dm"
+//MODULAR METACORPS FILE DO NOT REMOVE
+#include "modular_metacorps\main_modular_include.dm"
+#include "code\__DEFINES\~meta_defines_include.dm"
+#include "code\__HELPERS\~meta_helpers_include.dm"
+#include "code\_globalvars\~meta_globalvars_include.dm"
+//MODULAR METACORPS FILE DO NOT REMOVE
 #include "interface\interface.dm"
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"

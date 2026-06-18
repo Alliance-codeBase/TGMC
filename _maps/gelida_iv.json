@@ -14,7 +14,7 @@
 	},
     "armor": "ice",
 	"quickbuilds": 1900,
-	"announce_text": "Our comms array has detected an automated emergency signal broadcasting over a frequency reserved for the highest level of emergencies. The message was traced to the northern reaches of the research colony Gelida IV. The ship is moving into the sector with thrusters at max throttle. TGMC, get briefed and then move out!",
+	"announce_text": "Наша система связи обнаружила автоматический аварийный сигнал, передаваемый на частоте, зарезервированной для чрезвычайных ситуаций наивысшего уровня. Сообщение было отслежено до северной части исследовательской колонии Gelida IV. Корабль движется в этот сектор с двигателями, работающими на максимальной мощности. TGMC, получите инструктаж и отправляйтесь в путь!",
 	"traits":[{
 		"weather_snowstorm": true,
 		"No Parallax": true,
