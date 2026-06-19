@@ -10,7 +10,7 @@
 
 /* --- Features --- */
 
-
+#include "features\crawling\includes.dm"
 
 /* --- Reverts --- */
 
@@ -18,4 +18,4 @@
 
 /* --- Tweaks --- */
 
-#include "tweaks\russian_translation\includes.dme"
+#include "tweaks\russian_translation\includes.dm"
