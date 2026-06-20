@@ -60,6 +60,7 @@
  * * receivers - a list of all players to send the message to. defaults to all humans, AIs and ghosts
  * * playing_sound - optional, is this playing sound?
  */
+/* METACORPS REMOVAL (ru_annonces)
 /proc/priority_announce(
 	message,
 	title = "Announcement",
@@ -182,7 +183,7 @@
 			))
 			if(should_play_sound)
 				SEND_SOUND(M, S)
-
+*/
 #undef span_alert_header
 #undef span_faction_alert_title
 #undef span_faction_alert_minortitle

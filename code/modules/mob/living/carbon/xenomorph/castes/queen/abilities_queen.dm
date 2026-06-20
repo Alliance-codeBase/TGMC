@@ -27,9 +27,11 @@
 		REPORT_CHAT_FILTER_TO_USER(src, filter_result)
 		log_filter("IC", input, filter_result)
 		return FALSE
+	/* METACORPS REMOVAL (ru_annonces)
 	if(NON_ASCII_CHECK(input))
 		to_chat(xeno_owner, span_warning("That announcement contained characters prohibited in IC chat! Consider reviewing the server rules."))
 		return FALSE
+	*/
 
 	log_game("[key_name(xeno_owner)] has messaged the hive with: \"[input]\"")
 	deadchat_broadcast(" has messaged the hive: \"[input]\"", xeno_owner, xeno_owner)

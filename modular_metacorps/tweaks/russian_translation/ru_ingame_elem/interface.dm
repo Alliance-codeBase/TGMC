@@ -1,5 +1,14 @@
 // code/__HELPERS/announce.dm
-priority_announce(
+
+#define span_alert_header(str) ("<span class='alert_header'>" + str + "</span>")
+#define span_faction_alert_title(str) ("<span class='faction_alert_title'>" + str + "</span>")
+#define span_faction_alert_minortitle(str) ("<span class='faction_alert_minortitle'>" + str + "</span>")
+#define span_faction_alert_subtitle(str) ("<span class='faction_alert_subtitle'>" + str + "</span>")
+#define span_faction_alert_text(str) ("<span class='faction_alert_text'>" + str + "</span>")
+#define faction_alert_default_span(string) ("<div class='faction_alert_default'>" + string + "</div>")
+#define faction_alert_colored_span(color, string) ("<div class='faction_alert_" + color + "'>" + string + "</div>")
+
+proc/priority_announce(
 	message,
 	title = "Оповещение",
 	subtitle = "",
@@ -55,9 +64,9 @@ priority_announce(
 			if(playing_sound)
 				SEND_SOUND(M, s)
 
-print_command_report(papermessage, papertitle = "paper", announcemessage = "Отчет был установлен и распечатан на всех консолях связи.", announcetitle = "Входящее Зашифрованное Сообщение", announce = TRUE)
+proc/print_command_report(papermessage, papertitle = "paper", announcemessage = "Отчет был установлен и распечатан на всех консолях связи.", announcetitle = "Входящее Зашифрованное Сообщение", announce = TRUE)
 
-level_announce(datum/security_level/selected_level, previous_level_number)
+proc/level_announce(datum/security_level/selected_level, previous_level_number)
 	var/current_level_number = selected_level.number_level
 	var/current_level_name = selected_level.name
 	var/current_level_color = selected_level.announcement_color
@@ -84,7 +93,29 @@ level_announce(datum/security_level/selected_level, previous_level_number)
 		color_override = current_level_color
 	)
 
-minor_announce(message, title = "Внимание:", alert, list/receivers = GLOB.alive_human_list)
+proc/minor_announce(message, title = "Внимание:", alert, list/receivers = GLOB.alive_human_list, should_play_sound = FALSE)
+	if(!message)
+		return
+
+	var/sound/S = alert ? sound('sound/misc/notice1.ogg') : sound('sound/misc/notice2.ogg')
+	S.channel = CHANNEL_ANNOUNCEMENTS
+	for(var/mob/M AS in receivers)
+		if(!isnewplayer(M) && !isdeaf(M))
+			to_chat(M, assemble_alert(
+				title = title,
+				message = message,
+				minor = TRUE
+			))
+			if(should_play_sound)
+				SEND_SOUND(M, S)
+
+#undef span_alert_header
+#undef span_faction_alert_title
+#undef span_faction_alert_minortitle
+#undef span_faction_alert_subtitle
+#undef span_faction_alert_text
+#undef faction_alert_default_span
+#undef faction_alert_colored_span
 
 // code/__HELPERS/type2type.dm
 

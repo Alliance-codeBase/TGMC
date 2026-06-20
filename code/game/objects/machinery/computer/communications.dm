@@ -111,9 +111,11 @@
 					log_filter("IC", input, filter_result)
 					return FALSE
 
+				/* METACORPS REMOVAL (ru_annonces)
 				if(NON_ASCII_CHECK(input))
 					to_chat(usr, span_warning("That announcement contained characters prohibited in IC chat! Consider reviewing the server rules."))
 					return FALSE
+				*/
 
 				var/mob/living/carbon/human/sender = usr
 				priority_announce(input, subtitle = "Sent by [sender.get_paygrade(0) ? sender.get_paygrade(0) : sender.job.title] [sender.real_name]", type = ANNOUNCEMENT_COMMAND)

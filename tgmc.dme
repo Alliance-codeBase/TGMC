@@ -196,6 +196,9 @@
 #include "code\__DEFINES\dcs\signals\signals_transport.dm"
 #include "code\__DEFINES\dcs\signals\signals_atom\signals_atom_mouse.dm"
 #include "code\__DEFINES\dcs\signals\signals_atom\signals_atom_x_act.dm"
+//MODULAR METACORPS FILE DO NOT REMOVE
+#include "code\__DEFINES\~meta_defines_include.dm"
+//MODULAR METACORPS FILE DO NOT REMOVE
 #include "code\__HELPERS\_lists.dm"
 #include "code\__HELPERS\_planes.dm"
 #include "code\__HELPERS\_string_lists.dm"
@@ -266,6 +269,9 @@
 #include "code\__HELPERS\sorts\InsertSort.dm"
 #include "code\__HELPERS\sorts\MergeSort.dm"
 #include "code\__HELPERS\sorts\TimSort.dm"
+//MODULAR METACORPS FILE DO NOT REMOVE
+#include "code\__HELPERS\~meta_helpers_include.dm"
+//MODULAR METACORPS FILE DO NOT REMOVE
 #include "code\_globalvars\admin.dm"
 #include "code\_globalvars\bitfields.dm"
 #include "code\_globalvars\colorvars.dm"
@@ -288,6 +294,9 @@
 #include "code\_globalvars\lists\objects.dm"
 #include "code\_globalvars\lists\typechache.dm"
 #include "code\_globalvars\lists\vending.dm"
+//MODULAR METACORPS FILE DO NOT REMOVE
+#include "code\_globalvars\~meta_globalvars_include.dm"
+//MODULAR METACORPS FILE DO NOT REMOVE
 #include "code\_onclick\adjacent.dm"
 #include "code\_onclick\ai.dm"
 #include "code\_onclick\click.dm"
@@ -2561,9 +2570,6 @@
 #include "code\modules\xenomorph\xenotowers.dm"
 //MODULAR METACORPS FILE DO NOT REMOVE
 #include "modular_metacorps\main_modular_include.dm"
-#include "code\__DEFINES\~meta_defines_include.dm"
-#include "code\__HELPERS\~meta_helpers_include.dm"
-#include "code\_globalvars\~meta_globalvars_include.dm"
 //MODULAR METACORPS FILE DO NOT REMOVE
 #include "interface\interface.dm"
 #include "interface\menu.dm"
