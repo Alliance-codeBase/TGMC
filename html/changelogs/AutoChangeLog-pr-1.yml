@@ -1,0 +1,4 @@
+author: "Bruh-24"
+delete-after: True
+changes:
+  - rscdel: "ASCII regex чек в OOC"
