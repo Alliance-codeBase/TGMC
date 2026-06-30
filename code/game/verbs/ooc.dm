@@ -18,8 +18,12 @@
 
 	if(!msg)
 		return
+// METACORPS REMOVAL START (rus_ooc)
+	/*
 	if(NON_ASCII_CHECK(msg))
 		return
+	*/
+// METACORPS REMOVAL END (rus_ooc)
 
 	msg = emoji_parse(msg)
 
