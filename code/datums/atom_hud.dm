@@ -41,7 +41,7 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/atom_hud, alist( // MASSMETA EDIT original: 
 		remove_hud_from(v)
 	for(var/v in hudatoms)
 		remove_from_hud(v)
-	next_time_allowed = list()
+	next_time_allowed.Cut()
 	GLOB.all_huds -= src
 	return ..()
 
